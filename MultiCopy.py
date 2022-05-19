@@ -9,7 +9,7 @@ Author: Min Zhang
 import os
 import shutil
 
-def multimove():
+def multiCopy():
     src_path = input("Please enter your source path:\n")   #source path (main folder)
     out_path = input("Please enter your destination path:\n") # destination path
     end_pattern = input("Please enter filename ending patter:\n") #patern of moving filename
