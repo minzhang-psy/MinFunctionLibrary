@@ -20,6 +20,7 @@ def multiCopy():
             if filename.endswith(end_pattern):
                 src = os.path.join(dirpath, filename)
                 dest = os.path.join(out_path, filename)
+                #print(dirpath)
                 shutil.copy2(src,dest)
                            
     
