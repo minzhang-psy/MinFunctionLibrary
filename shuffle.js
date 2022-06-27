@@ -1,5 +1,6 @@
 /********************
 * shuffle function *
+* author: Ben Chaloupka
 *********************/
 
 function shuffle(array) {
