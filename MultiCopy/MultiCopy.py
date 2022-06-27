@@ -12,7 +12,7 @@ import shutil
 def multiCopy():
     src_path = input("Please enter your source path:\n")   #source path (main folder)
     out_path = input("Please enter your destination path:\n") # destination path
-    end_pattern = input("Please enter filename ending patter:\n") #patern of moving filename
+    end_pattern = input("Please enter filename ending patter:\n") #pattern of moving filename
 
     #print(src_path, out_path, end_pattern)
     for dirpath, dirnames, filenames in os.walk(src_path):
